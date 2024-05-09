@@ -1,13 +1,46 @@
 import pytest
 import time
 
-## Initializing 10 tests with intentional delay
-@pytest.mark.parametrize("no_of_test", range(10))
-def test_get_cat_fact_no_mock(no_of_test):
-    """
-    Running test with 1s delay.
-    """
-    time.sleep(1)
+## Initializing 10 tests with 1s intentional delay
 
+def test_with_xdist_01():
+    time.sleep(1)
+    assert True
+
+def test_with_xdist_02():
+    time.sleep(1)
+    assert True
+
+def test_with_xdist_03():
+    time.sleep(1)
+    assert True
+
+def test_with_xdist_04():
+    time.sleep(1)
+    assert True
+
+def test_with_xdist_05():
+    time.sleep(1)
+    assert True
+
+def test_with_xdist_06():
+    time.sleep(1)
+    assert True
+
+def test_with_xdist_07():
+    time.sleep(1)
+    assert True
+
+def test_with_xdist_08():
+    time.sleep(1)
+    assert True
+
+def test_with_xdist_09():
+    time.sleep(1)
+    assert True
+
+def test_with_xdist_10():
+    time.sleep(1)
+    assert True
 
 
