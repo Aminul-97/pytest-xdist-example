@@ -1,8 +1,11 @@
-#  Example Code
-This repo contains the sample code for the article - **Pytest Xdist**
+#  Pytest xdist Example
+This repo contains the sample code for the article - [Parallel Testing Made Easy With pytest-xdist](https://pytest-with-eric.com/plugins/pytest-xdist/)
 
 # Requirements
-* Python (3.10.6)
+* Python (3.12)
+* Pytest
+* pytest-xdist
+* pytest-randomly
 
 Please install the dependencies via the `requirements.txt` file using 
 ```bash
